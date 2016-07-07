@@ -1,5 +1,5 @@
 //
-//  RoundedView.swift
+//  RoundedButton.swift
 //  RoundedViews
 //
 //  Created by Juan Alberto Uribe on 7/7/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable public class RoundedView: UIView, Rounded {
+@IBDesignable public class RoundedButton: UIButton, Rounded {
     @IBInspectable public var radiusMultiplier: CGFloat = 1 {
         didSet {
             updateCorderRadius()
