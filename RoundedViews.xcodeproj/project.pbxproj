@@ -30,7 +30,7 @@
 		5B3A5A2B1D2EA7CD00A0417E = {
 			isa = PBXGroup;
 			children = (
-				5B3A5A371D2EA7CD00A0417E /* RoundedViews */,
+				5B3A5A371D2EA7CD00A0417E /* Source */,
 				5B3A5A361D2EA7CD00A0417E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,13 +43,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5B3A5A371D2EA7CD00A0417E /* RoundedViews */ = {
+		5B3A5A371D2EA7CD00A0417E /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				5B3A5A381D2EA7CD00A0417E /* RoundedViews.h */,
-				5B3A5A3A1D2EA7CD00A0417E /* Info.plist */,
+				5B3A5A401D2EB3E000A0417E /* Supporting Files */,
 			);
-			path = RoundedViews;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		5B3A5A401D2EB3E000A0417E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B3A5A3A1D2EA7CD00A0417E /* Info.plist */,
+				5B3A5A381D2EA7CD00A0417E /* RoundedViews.h */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +242,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = RoundedViews/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kogimobile.RoundedViews;
@@ -250,7 +258,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = RoundedViews/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kogimobile.RoundedViews;
@@ -278,6 +286,7 @@
 				5B3A5A3F1D2EA7CD00A0417E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
