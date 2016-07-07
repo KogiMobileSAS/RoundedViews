@@ -64,10 +64,27 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tSO-qT-0cY" customClass="RoundedLabel" customModule="RoundedViews">
+                                <rect key="frame" x="265" y="248" width="70" height="70"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tSO-qT-0cY" secondAttribute="height" multiplier="1:1" id="ZKn-iK-ZdI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="radiusMultiplier">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="chK-7M-23M" secondAttribute="trailing" id="2x3-UI-hwc"/>
+                            <constraint firstItem="tSO-qT-0cY" firstAttribute="width" secondItem="oKy-gk-CY0" secondAttribute="width" id="8yT-XQ-gbV"/>
+                            <constraint firstItem="tSO-qT-0cY" firstAttribute="top" secondItem="Cp3-jP-5xs" secondAttribute="bottom" constant="8" symbolic="YES" id="XfP-rT-cYM"/>
                             <constraint firstItem="Cp3-jP-5xs" firstAttribute="top" secondItem="chK-7M-23M" secondAttribute="bottom" constant="8" symbolic="YES" id="a7g-F2-LeZ"/>
                             <constraint firstItem="chK-7M-23M" firstAttribute="top" secondItem="oKy-gk-CY0" secondAttribute="bottom" constant="8" symbolic="YES" id="bqw-7z-ymy"/>
                             <constraint firstItem="Cp3-jP-5xs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kXQ-Mp-o53"/>
@@ -75,6 +92,7 @@
                             <constraint firstItem="chK-7M-23M" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="mW4-7r-8Ky"/>
                             <constraint firstItem="oKy-gk-CY0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="nbV-BP-HfY"/>
                             <constraint firstItem="Cp3-jP-5xs" firstAttribute="width" secondItem="oKy-gk-CY0" secondAttribute="width" id="qUM-Nh-M6I"/>
+                            <constraint firstItem="tSO-qT-0cY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s6k-74-gUo"/>
                         </constraints>
                     </view>
                 </viewController>
