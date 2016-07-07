@@ -1,8 +1,17 @@
 # RoundedViews
+[![Version](https://img.shields.io/cocoapods/v/RoundedViews.svg?style=flat)](http://cocoapods.org/pods/RoundedViews)
+[![License](https://img.shields.io/cocoapods/l/RoundedViews.svg?style=flat)](http://cocoapods.org/pods/RoundedViews)
+[![Platform](https://img.shields.io/cocoapods/p/RoundedViews.svg?style=flat)](http://cocoapods.org/pods/RoundedViews)
 
 `RoundedViews` is a library that contains a collection of IBDesignable UIKit views subclases with rounded corners.
 
 ![screen](../master/images/example.png)
+
+## Installation
+
+```ruby
+pod 'RoundedViews', '~> 1.0'
+```
 
 ## Usage
 
