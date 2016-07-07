@@ -2,6 +2,8 @@
 
 `RoundedViews` is a library that contains a collection of IBDesignable UIKit views subclases with rounded corners.
 
+![screen](../master/images/example.png)
+
 ## Usage
 
 ### Interface Builder
