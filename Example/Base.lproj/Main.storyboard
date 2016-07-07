@@ -51,14 +51,28 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hills" translatesAutoresizingMaskIntoConstraints="NO" id="Cp3-jP-5xs" customClass="RoundedImage" customModule="RoundedViews">
+                                <rect key="frame" x="265" y="170" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Cp3-jP-5xs" secondAttribute="height" multiplier="1:1" id="vC9-Ww-9Z6"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="radiusMultiplier">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="chK-7M-23M" secondAttribute="trailing" id="2x3-UI-hwc"/>
+                            <constraint firstItem="Cp3-jP-5xs" firstAttribute="top" secondItem="chK-7M-23M" secondAttribute="bottom" constant="8" symbolic="YES" id="a7g-F2-LeZ"/>
                             <constraint firstItem="chK-7M-23M" firstAttribute="top" secondItem="oKy-gk-CY0" secondAttribute="bottom" constant="8" symbolic="YES" id="bqw-7z-ymy"/>
+                            <constraint firstItem="Cp3-jP-5xs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kXQ-Mp-o53"/>
                             <constraint firstItem="oKy-gk-CY0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="leu-tO-YTC"/>
                             <constraint firstItem="chK-7M-23M" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="mW4-7r-8Ky"/>
                             <constraint firstItem="oKy-gk-CY0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="nbV-BP-HfY"/>
+                            <constraint firstItem="Cp3-jP-5xs" firstAttribute="width" secondItem="oKy-gk-CY0" secondAttribute="width" id="qUM-Nh-M6I"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -66,4 +80,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="hills" width="2000" height="1333"/>
+    </resources>
 </document>
