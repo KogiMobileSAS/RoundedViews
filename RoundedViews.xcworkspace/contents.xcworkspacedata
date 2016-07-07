@@ -5,6 +5,6 @@
       location = "container:RoundedViews.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Example.xcodeproj">
+      location = "group:/Users/juanalbertouribe/Documents/Projects/RoundedViews/RoundedViews Example.xcodeproj">
    </FileRef>
 </Workspace>

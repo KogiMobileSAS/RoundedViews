@@ -12,6 +12,7 @@
 		5B3A5A8A1D2EB79F00A0417E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3A5A821D2EB79F00A0417E /* LaunchScreen.storyboard */; };
 		5B3A5A8B1D2EB79F00A0417E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3A5A841D2EB79F00A0417E /* Main.storyboard */; };
 		5B3A5A8D1D2EB79F00A0417E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3A5A871D2EB79F00A0417E /* ViewController.swift */; };
+		5B99B1411D2EBDA80093F01C /* RoundedViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B99B1401D2EBDA80093F01C /* RoundedViews.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +22,8 @@
 		5B3A5A851D2EB79F00A0417E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B3A5A861D2EB79F00A0417E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B3A5A871D2EB79F00A0417E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5B3A5A8E1D2EB7C400A0417E /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3A5A8E1D2EB7C400A0417E /* RoundedViews Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RoundedViews Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B99B1401D2EBDA80093F01C /* RoundedViews.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RoundedViews.framework; path = "../../../Library/Developer/Xcode/DerivedData/RoundedViews-djhynbwkjdxstwbiiqwqmkcaxfcm/Build/Products/Debug-iphonesimulator/RoundedViews.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B99B1411D2EBDA80093F01C /* RoundedViews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 		5B3A5A611D2EB73100A0417E = {
 			isa = PBXGroup;
 			children = (
+				5B99B1401D2EBDA80093F01C /* RoundedViews.framework */,
 				5B3A5A7F1D2EB79F00A0417E /* Source */,
 				5B3A5A8F1D2EB7CC00A0417E /* Products */,
 			);
@@ -58,7 +62,7 @@
 		5B3A5A8F1D2EB7CC00A0417E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B3A5A8E1D2EB7C400A0417E /* Example.app */,
+				5B3A5A8E1D2EB7C400A0417E /* RoundedViews Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,9 +80,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B3A5A691D2EB73100A0417E /* Example */ = {
+		5B3A5A691D2EB73100A0417E /* RoundedViews Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B3A5A7C1D2EB73100A0417E /* Build configuration list for PBXNativeTarget "Example" */;
+			buildConfigurationList = 5B3A5A7C1D2EB73100A0417E /* Build configuration list for PBXNativeTarget "RoundedViews Example" */;
 			buildPhases = (
 				5B3A5A661D2EB73100A0417E /* Sources */,
 				5B3A5A671D2EB73100A0417E /* Frameworks */,
@@ -88,9 +92,9 @@
 			);
 			dependencies = (
 			);
-			name = Example;
+			name = "RoundedViews Example";
 			productName = "RoundedViews Example";
-			productReference = 5B3A5A8E1D2EB7C400A0417E /* Example.app */;
+			productReference = 5B3A5A8E1D2EB7C400A0417E /* RoundedViews Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5B3A5A651D2EB73100A0417E /* Build configuration list for PBXProject "Example" */;
+			buildConfigurationList = 5B3A5A651D2EB73100A0417E /* Build configuration list for PBXProject "RoundedViews Example" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -121,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B3A5A691D2EB73100A0417E /* Example */,
+				5B3A5A691D2EB73100A0417E /* RoundedViews Example */,
 			);
 		};
 /* End PBXProject section */
@@ -260,10 +264,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kogimobile.RoundedViews-Example";
-				PRODUCT_NAME = Example;
+				PRODUCT_NAME = "RoundedViews Example";
 			};
 			name = Debug;
 		};
@@ -271,17 +279,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kogimobile.RoundedViews-Example";
-				PRODUCT_NAME = Example;
+				PRODUCT_NAME = "RoundedViews Example";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B3A5A651D2EB73100A0417E /* Build configuration list for PBXProject "Example" */ = {
+		5B3A5A651D2EB73100A0417E /* Build configuration list for PBXProject "RoundedViews Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B3A5A7A1D2EB73100A0417E /* Debug */,
@@ -290,7 +302,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B3A5A7C1D2EB73100A0417E /* Build configuration list for PBXNativeTarget "Example" */ = {
+		5B3A5A7C1D2EB73100A0417E /* Build configuration list for PBXNativeTarget "RoundedViews Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B3A5A7D1D2EB73100A0417E /* Debug */,
