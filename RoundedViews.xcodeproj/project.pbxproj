@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B31A93E1D35837E00241938 /* RoundedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B31A93D1D35837E00241938 /* RoundedTextView.swift */; };
 		5B3A5A391D2EA7CD00A0417E /* RoundedViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B3A5A381D2EA7CD00A0417E /* RoundedViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B3A5A421D2EB41C00A0417E /* Rounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3A5A411D2EB41C00A0417E /* Rounded.swift */; };
 		5B3A5A921D2EB87400A0417E /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3A5A911D2EB87400A0417E /* RoundedView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B31A93D1D35837E00241938 /* RoundedTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedTextView.swift; sourceTree = "<group>"; };
 		5B3A5A351D2EA7CD00A0417E /* RoundedViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RoundedViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B3A5A381D2EA7CD00A0417E /* RoundedViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundedViews.h; sourceTree = "<group>"; };
 		5B3A5A3A1D2EA7CD00A0417E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				5B99B1421D2EBDDA0093F01C /* RoundedButton.swift */,
 				5B99B1451D2EBFD40093F01C /* RoundedImage.swift */,
 				5B99B1481D2EC30F0093F01C /* RoundedLabel.swift */,
+				5B31A93D1D35837E00241938 /* RoundedTextView.swift */,
 				5B3A5A401D2EB3E000A0417E /* Supporting Files */,
 			);
 			path = Source;
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B3A5A921D2EB87400A0417E /* RoundedView.swift in Sources */,
+				5B31A93E1D35837E00241938 /* RoundedTextView.swift in Sources */,
 				5B99B1491D2EC30F0093F01C /* RoundedLabel.swift in Sources */,
 				5B99B1461D2EBFD40093F01C /* RoundedImage.swift in Sources */,
 				5B99B1431D2EBDDA0093F01C /* RoundedButton.swift in Sources */,
