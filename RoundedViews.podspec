@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = 'RoundedViews'
-  s.version           = '1.0.0'
+  s.version           = '1.0.1'
   s.license           = 'MIT'
   s.summary           = 'Library that contains a collection of IBDesignable UIKit views subclases with rounded corners'
   s.homepage          = 'https://github.com/KogiMobileSAS/RoundedViews'
