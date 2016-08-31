@@ -9,12 +9,12 @@
 import UIKit
 
 @IBDesignable public class RoundedImage: UIImageView, Rounded {
-    @IBInspectable public var radiusMultiplier: CGFloat = 1 {
+    @IBInspectable public var radiusMultiplier: CGFloat = defaultRadiusMultiplier {
         didSet {
             updateCorderRadius()
         }
     }
-    @IBInspectable public var borderWidth: CGFloat = 0 {
+    @IBInspectable public var borderWidth: CGFloat = defaultBorderWidth {
         didSet {
             updateBorderWidth()
         }

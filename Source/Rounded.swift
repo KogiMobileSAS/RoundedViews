@@ -16,6 +16,16 @@ protocol Rounded {
 
 extension Rounded where Self: UIView {
     
+    // Default values
+    static var defaultRadiusMultiplier: CGFloat {
+        return 0
+    }
+    
+    static var defaultBorderWidth: CGFloat {
+        return 0
+    }
+    
+    // Helper functions for updating the layer
     func updateBorderWidth() {
         layer.borderWidth = borderWidth
     }
@@ -25,6 +35,10 @@ extension Rounded where Self: UIView {
     }
     
     func updateCorderRadius() {
+        guard radiusMultiplier != 0 else {
+            layer.cornerRadius = 0
+            return
+        }
         let shortestDimmension = min(bounds.size.width, bounds.size.height)
         layer.cornerRadius = shortestDimmension / radiusMultiplier
     }
