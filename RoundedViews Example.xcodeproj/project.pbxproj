@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B042F511D80CD3E000BEF7F /* RoundedViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B042F501D80CD3E000BEF7F /* RoundedViews.framework */; };
 		5B3A5A881D2EB79F00A0417E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3A5A801D2EB79F00A0417E /* AppDelegate.swift */; };
 		5B3A5A891D2EB79F00A0417E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B3A5A811D2EB79F00A0417E /* Assets.xcassets */; };
 		5B3A5A8A1D2EB79F00A0417E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3A5A821D2EB79F00A0417E /* LaunchScreen.storyboard */; };
 		5B3A5A8B1D2EB79F00A0417E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3A5A841D2EB79F00A0417E /* Main.storyboard */; };
 		5B3A5A8D1D2EB79F00A0417E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3A5A871D2EB79F00A0417E /* ViewController.swift */; };
-		5B99B1471D2EC1A20093F01C /* RoundedViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B99B1401D2EBDA80093F01C /* RoundedViews.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B042F501D80CD3E000BEF7F /* RoundedViews.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RoundedViews.framework; path = "build/Debug-iphoneos/RoundedViews.framework"; sourceTree = "<group>"; };
 		5B3A5A801D2EB79F00A0417E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B3A5A811D2EB79F00A0417E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B3A5A831D2EB79F00A0417E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		5B3A5A861D2EB79F00A0417E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B3A5A871D2EB79F00A0417E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B3A5A8E1D2EB7C400A0417E /* RoundedViews Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RoundedViews Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B99B1401D2EBDA80093F01C /* RoundedViews.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RoundedViews.framework; path = "../../../Library/Developer/Xcode/DerivedData/RoundedViews-djhynbwkjdxstwbiiqwqmkcaxfcm/Build/Products/Debug-iphonesimulator/RoundedViews.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,19 +31,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B99B1471D2EC1A20093F01C /* RoundedViews.framework in Frameworks */,
+				5B042F511D80CD3E000BEF7F /* RoundedViews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B042F4F1D80CD3E000BEF7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B042F501D80CD3E000BEF7F /* RoundedViews.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5B3A5A611D2EB73100A0417E = {
 			isa = PBXGroup;
 			children = (
-				5B99B1401D2EBDA80093F01C /* RoundedViews.framework */,
 				5B3A5A7F1D2EB79F00A0417E /* Source */,
 				5B3A5A8F1D2EB7CC00A0417E /* Products */,
+				5B042F4F1D80CD3E000BEF7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,11 +112,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Kogi Mobile";
 				TargetAttributes = {
 					5B3A5A691D2EB73100A0417E = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -189,8 +198,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -235,8 +246,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -255,6 +268,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -264,14 +278,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-				);
 				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kogimobile.RoundedViews-Example";
 				PRODUCT_NAME = "RoundedViews Example";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -279,14 +290,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-				);
 				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kogimobile.RoundedViews-Example";
 				PRODUCT_NAME = "RoundedViews Example";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

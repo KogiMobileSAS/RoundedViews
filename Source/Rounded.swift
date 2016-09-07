@@ -31,7 +31,7 @@ extension Rounded where Self: UIView {
     }
     
     func updateBoderColor() {
-        layer.borderColor = borderColor?.CGColor
+        layer.borderColor = borderColor?.cgColor
     }
     
     func updateCorderRadius() {
